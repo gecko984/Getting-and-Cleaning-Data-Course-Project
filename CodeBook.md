@@ -27,7 +27,7 @@ See 'features_info.txt' contained in the original dataset for more details.
 ###Guide to create the tidy data file
 1. Download the dataset [here](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip) or [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
-2.
+2. Unzip the zipped file to your computer.
 
 Description on how to create the tidy data file (1. download the data, ...)/
 
