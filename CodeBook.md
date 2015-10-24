@@ -20,7 +20,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-See 'features_info.txt' contained in the original dataset for more details.
+See `features_info.txt` contained in the original dataset for more details.
 
 ##Creating the tidy datafile
 
@@ -30,16 +30,14 @@ See 'features_info.txt' contained in the original dataset for more details.
 3. [Download run_analysis.R script](https://github.com/gecko984/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R)  from this repository. 
 4. Open the downloaded script in your R development environment.
 5. Set the working directory to your "UCI HAR Dataset" directory created in step 2. For example, setwd("C:/DSS/UCI HAR Dataset/") 
-6. Make sure 'dplyr' package is installed. If not, install it by entering install.packages("dplyr") in your R console.
+6. Make sure `dplyr` package is installed. If not, install it by entering install.packages("dplyr") in your R console.
 7. Run the script. The tidy dataset  X_avg will be created in your environment and a file named X_avgs.txt will be created in your working directory. 
 
 
 
 ###Cleaning of the data
-The script  
-
-
-Short, high-level description of what the cleaning script does. [link to the readme document that describes the code in greater detail]()
+The script reads the all the neccesary data into R data frames and prepares the data. It merges all data into one big data set, using descriptive names and values for non-quantative variables. It drops all the columns not needed for the analysis, and then performs the analysis, producing the tidy dataset X_avg as specified in the assignment.
+For more detailed description see [README.md](https://github.com/gecko984/Getting-and-Cleaning-Data-Course-Project/blob/master/README.md) and the comments in the script.
 
 ##Description of the variables in the tiny_data.txt file
 General description of the file including:
