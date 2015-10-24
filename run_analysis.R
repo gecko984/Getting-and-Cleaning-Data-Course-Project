@@ -90,7 +90,7 @@ colnames(X) <- features
 mean_cols <- grep("mean\\(\\)", features, value=TRUE)
 
 
-#Making a list of all std() columns name:
+#Making a list of all std() columns names:
 
 std_cols <- grep("std\\(\\)", features, value=TRUE)
 
@@ -108,12 +108,12 @@ X <- X[cols_to_keep]
 #Replacing labels in the activities vector y by their respective desriptive
 #names.
 
-y_descr <- factor(y, labels=activity_labels)
+y <- factor(y, labels=activity_labels)
 
 
 #Adding Subject and Activity labels as two first column of our dataset.
 
-X <- cbind(subject, y_descr, X)
+X <- cbind(subject, y, X)
 
 
 #Assigning names to the two new columns
