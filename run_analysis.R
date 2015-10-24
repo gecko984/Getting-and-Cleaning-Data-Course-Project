@@ -1,3 +1,13 @@
+######ATTENTION#####
+
+#Please use setwd() to specify the path to "UCI HAR Dataset" directory on your computer, for example:
+#setwd("C:/DSS/UCI HAR Dataset/") 
+
+
+#ATTENTION: This script uses the dplyr package.
+#You can install it by entering install.packages("dplyr") in the R console.
+
+
 #This is the script for the course project for the Getting and Cleaning Data
 #course in the JHU Data Science Specialization on Coursera.
 
@@ -9,19 +19,7 @@
 #https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 
-#Please assignthe location of the "UCI HAR Dataset" directory in the path variable,
-#for example "C:/DSS/UCI HAR Dataset/"
-
-path <- "D:/Учеба/Data Science Specialization/03 Getting and cleaning data/Week 3/course project/UCI HAR Dataset"
-
-#ATTENTION: This script needs the dplyr library to be installed in your system.
-#You can install it by entering install.packages("dplyr") in the R console,
-
-
 ##########################
-
-setwd(path)
-
 
 #Loading features list:
 
