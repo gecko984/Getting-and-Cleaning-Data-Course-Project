@@ -20,6 +20,7 @@
 
 
 ##########################
+library(dplyr)
 
 #Loading features list:
 
