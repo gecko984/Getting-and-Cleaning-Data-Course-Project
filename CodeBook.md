@@ -29,9 +29,9 @@ See `features_info.txt` contained in the original dataset for more details.
 2. Unzip the zipped file to your computer.
 3. [Download run_analysis.R script](https://github.com/gecko984/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R)  from this repository. 
 4. Open the downloaded script in your R development environment.
-5. Set the working directory to your "UCI HAR Dataset" directory created in step 2. For example, setwd("C:/DSS/UCI HAR Dataset/") 
-6. Make sure `dplyr` package is installed. If not, install it by entering install.packages("dplyr") in your R console.
-7. Run the script. The tidy dataset  X_avg will be created in your environment and a file named X_avgs.txt will be created in your working directory. 
+5. Set the working directory to your "UCI HAR Dataset" directory created in step 2. For example, `setwd("C:/DSS/UCI HAR Dataset/")` 
+6. Make sure `dplyr` package is installed. If not, install it by entering `install.packages("dplyr")` in your R console.
+7. Run the script. The tidy dataset `X_avg` will be created in your environment and a file named `X_avgs.txt` will be created in your working directory. 
 
 
 
