@@ -36,7 +36,7 @@ See `features_info.txt` contained in the original dataset for more details.
 
 
 ###Cleaning of the data
-The script reads the all the neccesary data into R data frames and prepares the data. It merges all data into one big data set, using descriptive names and values for non-quantative variables. It drops all the columns not needed for the analysis, and then performs the analysis, producing the tidy dataset X_avg as specified in the assignment.
+The script reads the all the neccesary data into R data frames and prepares the data. It merges all data into one big data set, using descriptive names and values for non-quantative variables. It drops all the columns not needed for the analysis, and then performs the analysis, producing the tidy dataset `X_avg` as specified in the assignment.
 For more detailed description see [README.md](https://github.com/gecko984/Getting-and-Cleaning-Data-Course-Project/blob/master/README.md) and the comments in the script.
 
 ##Description of the variables in the tiny_data.txt file
