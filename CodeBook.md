@@ -35,13 +35,12 @@ Each record (row) in the train and test datasets corresponds to the 561 variable
 ##Creating the tidy datafile
 
 ###Guide to create the tidy data file
-1. Download the dataset [here](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip) or [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+1. Download the full dataset [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) or [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 2. Unzip the zipped file to your computer.
-3. [Download run_analysis.R script](https://github.com/gecko984/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R)  from this repository. 
-4. Open the downloaded script in your R development environment.
-5. Set the working directory to your "UCI HAR Dataset" directory created in step 2. For example, `setwd("C:/DSS/UCI HAR Dataset/")` 
-6. Make sure `dplyr` package is installed. If not, install it by entering `install.packages("dplyr")` in your R console.
-7. Run the script. The tidy dataset `X_avgs` will be created in your environment and a file named `X_avgs.txt` containing it will be created in your working directory. 
+3. Clone this repository to your computer and open [run_analysis.R script](https://github.com/gecko984/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R)  in your R development environment.
+4. Set the working directory to your "UCI HAR Dataset" directory created in step 2. For example, `setwd("C:/DSS/UCI HAR Dataset/")` 
+5. Make sure `dplyr` package is installed. If not, install it by entering `install.packages("dplyr")` in your R console.
+6. Run the script. The tidy dataset `X_avgs` will be created in your environment and a file named `X_avgs.txt` containing it will be created in your working directory. 
 
 ###Cleaning of the data
 The script reads the all the neccesary data into R data frames and prepares the data. It merges all data into one big data set, using descriptive variable names. It drops all the columns not needed for the analysis, leaving only `mean()` and `std()` out of the 17 statistics. After this step we obtain a dataset of 10 299 rows and 68 columns.
@@ -93,4 +92,6 @@ Features in the raw data were normalized and bounded within [-1,1].
 * Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012*
 * [Getting and Cleaning Data class on Coursera](https://www.coursera.org/course/getdata)
 * [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
+
 
