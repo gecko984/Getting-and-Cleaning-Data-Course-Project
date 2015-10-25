@@ -64,22 +64,22 @@ A `factor` variable containing activity label with 6 levels (`"Walking', "Walkin
 
 ###Other 66 variables
 
-The remaining 66 columns vontain averages of mean() and std() statistics of all 33 signals, taken over each subject and activity.
+The remaining 66 columns vontain averages of `mean()` and `std()` statistics of all 33 signals, taken over each subject and activity.
 
 The variable names have several levels.
 
 *Level 1 contains either the letter `t` or the letter `f`. The `t` means the variable is in the temporal domain, `f` indicates the frequency domain.
 * Level 2 is either `Body` or `Gravity` and indicates whether the variable relates to body motion or gravitational component of a signal.
 * Level 3 contains one of te following: 
-  *`Acc` - acceleration;
-  *`Accjerk` - derivative of acceleration aka jerk;
-  *`Gyro` - angular velocity;
-  *`Gyrojerk` - derivative of angular velocity aka angular jerk;
-  *`AccMag` - Euclidean norm of acceleration;
-  *`AccjerkMag` - Euclidean norm of jerk;
-  *`GyroMag` -  - Euclidean norm of angular velocity;
-  *`GyrojerkMag` - Euclidean norm of angular jerk;
-* Level 4 contains either `mean` or `std`.
+  `Acc` - acceleration;
+  `Accjerk` - derivative of acceleration aka jerk;
+  `Gyro` - angular velocity;
+  `Gyrojerk` - derivative of angular velocity aka angular jerk;
+  `AccMag` - Euclidean norm of acceleration;
+  `AccjerkMag` - Euclidean norm of jerk;
+  `GyroMag` -  - Euclidean norm of angular velocity;
+  `GyrojerkMag` - Euclidean norm of angular jerk;
+* Level 4 contains either `mean` or `std` and indicates what statistic of the xorresponding signal the variable relates to.
 * Level 5 is either absent (for `*Mag` variables), or contains the name of the axis the variable relates to - `X`, `Y`, or `Z`.
 
 ##Units of measurement:
