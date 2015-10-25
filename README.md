@@ -25,7 +25,7 @@ The data for the script is available at [UC Irvine Machine Learning Repository](
 
 ##Very short introduction to the dataset
 
-The dataset contains sensor data, derived from signals of accelerometer and gyroscope of a smartphone worn by 30 peoples performing 6 kinds of activities - Walking, Walking upstairs, Walking downstairs, Sitting, Standing and Laying. The creatrs of the dataset strived to create an olgorithm which would identify what physical activity a person is performing based on the data from the gyroscope and accelerometer in the smartphonw this person carried. 
+The dataset contains sensor data, derived from signals of accelerometer and gyroscope of a smartphone worn by 30 peoples performing 6 kinds of activities - Walking, Walking upstairs, Walking downstairs, Sitting, Standing and Laying. The creators of the dataset strived to create an algorithm which would identify what physical activity a person is performing based on the data from the gyroscope and accelerometer in the smartphone this person wore. 
 
 The signals from the two sensors were expanded into 561 different measured variables with the use of different statistics and mathematical functions. For more detail se CodeBook.md and info in the original dataset.
 
