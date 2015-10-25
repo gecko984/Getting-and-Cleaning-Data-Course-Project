@@ -56,10 +56,10 @@ subject <- rbind(subject_train, subject_test)
 
 #y, subject and features are dataframes each having a single significant
 #column.
-#Extracting these columns as vectors:
+#Extracting these columns as vectors. Also, converting subject id's from integer to factor:
 
 y <- y[,1] 
-subject <- subject[,1]
+subject <- as.factor(subject[,1])
 features <-features[,2]
 
 
