@@ -27,7 +27,7 @@ The data for the script is available at [UC Irvine Machine Learning Repository](
 
 The dataset contains sensor data, derived from signals of accelerometer and gyroscope of a smartphone worn by 30 peoples performing 6 kinds of activities - Walking, Walking upstairs, Walking downstairs, Sitting, Standing and Laying. The creators of the dataset strived to create an algorithm which would identify what physical activity a person is performing based on the data from the gyroscope and accelerometer in the smartphone this person wore. 
 
-The signals from the two sensors were expanded into 561 different measured variables with the use of different statistics and mathematical functions. For more detail se CodeBook.md and info in the original dataset.
+The signals from the two sensors were expanded into 561 different measured variables with the use of different statistics and mathematical functions. For more detail see CodeBook.md and info in the original dataset.
 
 We will need the following files from the dataset:
 
@@ -84,7 +84,7 @@ y <- rbind(y_train, y_test)
 subject <- rbind(subject_train, subject_test)
 ```
 
-The `read.table()` returns a dataframe, but `y`, `subject` and `features` are really just vectors. The script extracts these columns as vectors. Also, converting subject id's from integer to factor:
+The `read.table()` returns a dataframe, but `y`, `subject` and `features` are really just vectors. The script extracts these columns as vectors. Recall that `features.txt` has two columns, the first being just the index.  Also, converting subject id's from integer to factor:
 
 ```
 y <- y[,1] 
