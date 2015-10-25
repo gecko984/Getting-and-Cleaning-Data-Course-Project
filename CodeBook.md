@@ -68,7 +68,7 @@ The remaining 66 columns vontain averages of `mean()` and `std()` statistics of 
 
 The variable names have several levels.
 
-*Level 1 contains either the letter `t` or the letter `f`. The `t` means the variable is in the temporal domain, `f` indicates the frequency domain.
+* Level 1 contains either the letter `t` or the letter `f`. The `t` means the variable is in the temporal domain, `f` indicates the frequency domain.
 * Level 2 is either `Body` or `Gravity` and indicates whether the variable relates to body motion or gravitational component of a signal.
 * Level 3 contains one of te following: 
   `Acc` - acceleration;
