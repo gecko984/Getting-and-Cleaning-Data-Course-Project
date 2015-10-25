@@ -28,7 +28,7 @@ The data for the script is available at [UC Irvine Machine Learning Repository](
 The script cleans up and summarizes the data from the original dataset, according to course assignment.
 The original data consists of 7 files
 
-* `X_train.txt` contains 7352 observations of 561 variables. Each row is a observation of 561 variables (se CodeBook.md in this repo) during one timeframe of 2,5 seconds of one experiment (one subject performing one activity).
+* `X_train.txt` contains 7352 observations of 561 variables. Each row is a observation of 561 variables (see CodeBook.md in this repo) during one timeframe of 2.56 seconds of one experiment (one subject performing one activity).
 * `X_test.txt` is similar to `X_train.txt`, but has 2947 rows
 * `features.txt` contains the names of the 561 measured variables
 * `subject_train.txt` and `subject_test.txt` contain the subject id's corresponding to each observation in `X_train.txt`, `X_test.txt` respectively
@@ -55,7 +55,7 @@ subject_test <- read.table("./test/subject_test.txt")
 ```
 
 * The train and test datasets of measure variables for each record
-
+```
 X_train <- read.table("./train/X_train.txt")
 y_train <- read.table("./train/y_train.txt")
 
@@ -63,13 +63,13 @@ X_test <- read.table("./test/X_test.txt")
 y_test <- read.table("./test/y_test.txt")
 ```
 
-Then it specifyes activity labels from activity_labels.txt manually:
+Then it specifies activity labels from activity_labels.txt manually:
 ```
 activity_labels <- c("Walking", "Walking upstairs", "Walking downstairs",
                      "Sitting", "Standing", "Laying")
 ```
 
-It then Merges train and test data into a single dataset using `rbind()`:
+It then merges train and test data into a single dataset using `rbind()`:
 ```
 X <- rbind(X_train, X_test)
 y <- rbind(y_train, y_test)
