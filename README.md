@@ -148,7 +148,7 @@ Using group_by() and summarize_each() functions from dplyr to make the data set 
 X_avgs <- X %>% group_by(Subject, Activity) %>% summarise_each(funs(mean))
 ```
 
-Writing the resulting dataset to file
+Writing the resulting dataset to file using `row.name=FALSE`, as specified in the assignment.
 ```
 write.table(X_avgs, file = "X_avgs.txt", row.name=FALSE)
 ```
