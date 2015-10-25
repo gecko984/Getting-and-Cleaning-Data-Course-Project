@@ -23,16 +23,24 @@ The data for the script is available at [UC Irvine Machine Learning Repository](
 6. Run the script. The tidy dataset `X_avgs` will be created in your environment and a file named `X_avgs.txt` containing it will be created in your working directory. 
 
 
-##What the script does
+##Very short introduction to the dataset
 
-The script cleans up and summarizes the data from the original dataset, according to course assignment.
-The original data consists of 7 files
+The dataset contains sensor data, derived from signals of accelerometer and gyroscope of a smartphone worn by 30 peoples performing 6 kinds of activities - Walking, Walking upstairs, Walking downstairs, Sitting, Standing and Laying. The creatrs of the dataset strived to create an olgorithm which would identify what physical activity a person is performing based on the data from the gyroscope and accelerometer in the smartphonw this person carried. 
+
+The signals from the two sensors were expanded into 561 different measured variables with the use of different statistics and mathematical functions. For more detail se CodeBook.md and info in the original dataset.
+
+We will need the following files from the dataset:
 
 * `X_train.txt` contains 7352 observations of 561 variables. Each row is a observation of 561 variables (see CodeBook.md in this repo) during one timeframe of 2.56 seconds of one experiment (one subject performing one activity).
-* `X_test.txt` is similar to `X_train.txt`, but has 2947 rows
+* `X_test.txt` contains 2947 observations of 561 variables and is similar to `X_train.txt`
 * `features.txt` contains the names of the 561 measured variables
-* `subject_train.txt` and `subject_test.txt` contain the subject id's corresponding to each observation in `X_train.txt`, `X_test.txt` respectively
-* `y_train.txt` and `y_test.txt` contain the activities labels corresponding to each observation in `X_train.txt`, `X_test.txt` respectively
+* `subject_train.txt` contain the subject id's corresponding to each observation in `X_train.txt`. It has 7352 rows and 1 column.
+*`subject_test.txt` contain the subject id's corresponding to each observation in `X_test.txt`. It has 2947 rows and 1 column.
+* `y_train.txt`  contains the activities labels corresponding to each observation in `X_train.txt`. It has 7352 rows and, unlike `subject_train.txt`,  two columns, the first being just the index number, which we will later discard.
+* `y_test.txt` has 2947 rows and 2 columns, similar to `y_train.txt`.
+
+##What the script does
+The script cleans up and summarizes the data from the original dataset, according to course assignment, giving averages of a specific subset of measured variables for each subject and activity.
 
 ##Script step-by step explanation
 
