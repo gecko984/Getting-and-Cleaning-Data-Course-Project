@@ -48,7 +48,7 @@ First, please don't forget to [download](https://d396qusza40orc.cloudfront.net/g
 ```
 #setwd("C:/DSS/UCI HAR Dataset/") 
 ```
-THe script works as follows:
+The script works as follows:
 First, it loads all neccesary data
 
 * The vector of feature names
@@ -77,7 +77,7 @@ activity_labels <- c("Walking", "Walking upstairs", "Walking downstairs",
                      "Sitting", "Standing", "Laying")
 ```
 
-It then merges train and test data into a single dataset using `rbind()`:
+It then merges train and test data using `rbind()`:
 ```
 X <- rbind(X_train, X_test)
 y <- rbind(y_train, y_test)
