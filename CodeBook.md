@@ -57,10 +57,10 @@ The tidy dataset `X_avgs.txt` contains 180 rows and 68 columns.
 Each row in the tidy dataset corresponds to one experiment (one subject performig one activity), and vice versa.
 
 ###Subject
-A `factor` variable containing subject id `"1"` to `"30"`.
+A `factor` variable containing subject id, with 30 levels `"1"` to `"30"`.
 
 ###Activity
-A `factor` variable containing activity label ("Walking', "Walking upstairs", "Walking downstairs", "Sitting', "Standing", "Laying").
+A `factor` variable containing activity label with 6 levels (`"Walking', "Walking upstairs", "Walking downstairs", "Sitting', "Standing", "Laying"`).
 
 ###Other 66 variables
 
@@ -69,7 +69,7 @@ The remaining 66 columns vontain averages of mean() and std() statistics of all 
 The variable names have several levels.
 
 *Level 1 contains either the letter `t` or the letter `f`. The `t` means the variable is in the temporal domain, `f` indicates the frequency domain.
-* Level 2 is either `Body` or `Gravity` and indicates whether the variable relates to body motion or  gravitational component of a signal.
+* Level 2 is either `Body` or `Gravity` and indicates whether the variable relates to body motion or gravitational component of a signal.
 * Level 3 contains one of te following: 
   *`Acc` - acceleration;
   *`Accjerk` - derivative of acceleration aka jerk;
@@ -83,18 +83,14 @@ The variable names have several levels.
 * Level 5 is either absent (for `*Mag` variables), or contains the name of the axis the variable relates to - `X`, `Y`, or `Z`.
 
 ##Units of measurement:
-No units because all measure variables are normalized.
+All measure variables have no units because they are normalized.
 
 ####Notes on variables:
 Features in the raw data were normalized and bounded within [-1,1].
 
-
-
 ##Sources
 
-*Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012*
-
-[Getting and Cleaning Data class on Coursera](https://www.coursera.org/course/getdata)
-
-[UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+* Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012*
+* [Getting and Cleaning Data class on Coursera](https://www.coursera.org/course/getdata)
+* [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
