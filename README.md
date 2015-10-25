@@ -7,9 +7,9 @@ Oct 26 2015
 
 This repo contains the following files
 
-* README.md - this file
-* CodeBook.md - the codebook, containing general information on the dataset, 
-* run_analysis.R - the script performing the data clearing process.
+* `README.md` - this file
+* `CodeBook.md` - the codebook, containing general information on the dataset, 
+* `run_analysis.R` - the script performing the data clearing process.
 
 The data for the script is available at [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
