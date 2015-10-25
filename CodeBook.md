@@ -8,7 +8,7 @@ output:
 ---
 
 ## Project Description
-This is the course project for the Getting and Cleaning Data class on Coursera by John Hopkins University.
+This is the course project for the [Getting and Cleaning Data class on Coursera](https://www.coursera.org/course/getdata) by John Hopkins University.
 The data is provided by UC Irvine Machine Learning Repository and is available [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) or [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ##Study design and data processing
@@ -94,5 +94,7 @@ Features in the raw data were normalized and bounded within [-1,1].
 
 *Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012*
 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+[Getting and Cleaning Data class on Coursera](https://www.coursera.org/course/getdata)
+
+[UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
