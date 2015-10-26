@@ -51,7 +51,7 @@ For more detailed description see [README.md](https://github.com/gecko984/Gettin
 
 ##Description of the variables in the `X_avgs.txt` file
 
-The tidy dataset `X_avgs.txt` contains 180 rows and 68 columns.
+The tidy dataset `X_avgs.txt` has a header with variable names and contains 180 rows and 68 columns of data.
 
 Each row in the tidy dataset corresponds to one experiment (one subject performig one activity), and vice versa.
 
